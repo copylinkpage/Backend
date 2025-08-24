@@ -1,6 +1,6 @@
 {
-  name translator-backend,
-  version 1.0.0,
-  private true,
-  type commonjs
+  "name": "translator-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs"
 }

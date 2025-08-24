@@ -1,14 +1,9 @@
 {
   "name": "translator-backend",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "build": "next build",
-    "start": "next start",
-    "dev": "next dev"
+    "build": "echo \"no build\""
   },
-  "dependencies": {
-    "next": "14.2.3",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
-  }
+  "dependencies": {}
 }

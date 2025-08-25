@@ -1,7 +1,14 @@
 {
   "name": "translator-backend",
   "version": "1.0.0",
-  "description": "Azure Translator API Backend",
-  "private": true
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo \"no build step\"",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.31.0"
+  }
 }
-
